@@ -1,0 +1,50 @@
+body{
+display: grid;
+grid-template-columns: 15vw 70vw 15vw;
+grid-template-rows: 10vh 20vh 60vh 10vh;
+}
+
+
+header{
+text-align: center;
+font-size: xx-large;
+background-color:gray;
+color: #F6E9DC;
+border: 3px solid red;
+grid-column:2/3 ;
+grid-row:1/2;
+}
+
+.vikdatum{
+background-color: gray;
+border: 3px solid yellow;
+margin-left:20% ;
+margin-right: 20%;
+margin-bottom: 4%;
+margin-top: 2%;
+color: white;
+}
+
+.julafton{
+background-color: white;
+color: red;
+margin-right: 80%;
+}
+
+.nyårsdagen{
+background-color: gold;
+margin-right: 80%;
+}
+
+main{
+background-color:#F6E9DC;
+grid-column:2/3 ;
+grid-row:3/4 ;
+border: 5px solid black;
+}
+
+article{
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows:repeat(5 100px);
+    border: 10px solid red;
+}
